@@ -18,6 +18,9 @@ namespace Capstone_BE.Business.Service
             var result = new ResultModel();
             try
             {
+                result.IsSuccess= true;
+                result.Code = 200;
+                result.ResponseSuccess = "Gọi được nhé";
                 // Code in here!
             }
             catch (Exception e)

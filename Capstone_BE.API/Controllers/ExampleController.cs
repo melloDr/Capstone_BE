@@ -20,7 +20,7 @@ namespace Capstone_BE.API.Controllers
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ResultModel))]
+        //[ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ResultModel))]
         [HttpGet("ExampleFunction")]
         public async Task<IActionResult> ExampleFunction()
         {
